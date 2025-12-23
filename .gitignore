@@ -1,0 +1,21 @@
+# Godot 4
+.import/
+.export/
+.mono/
+.vscode/
+.idea/
+.android/
+
+# Builds
+*.exe
+*.x86_64
+*.apk
+*.aab
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
