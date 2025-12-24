@@ -53,3 +53,14 @@ img_cooked = ExtResource("7_nn2mh")
 img_finished = ExtResource("8_i5npo")
 butter = NodePath("../Butter")
 batter = NodePath("../Batter")
+
+[node name="Timer" type="Timer" parent="Grill"]
+wait_time = 3.0
+one_shot = true
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_left = 339.0
+offset_top = 66.0
+offset_right = 379.0
+offset_bottom = 106.0

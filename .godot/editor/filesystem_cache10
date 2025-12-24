@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1766519559
+::res://::1766559924
 icon.svg::CompressedTexture2D::1892753862333191988::1766510099::1766510103::1::::<><><>0<>0<>fb7c8f98cbd8d8d47a100bc02db01836<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://Assets/::1766518423
 images.jpg::CompressedTexture2D::3263309515722053077::1766514202::1766514206::1::::<><><>0<>0<>951bb53732a9fcaf8f23da5d0ad79ae4<>res://.godot/imported/images.jpg-e4ded5d89bd2d4163aa556cfa800dad5.ctex::
@@ -10,7 +10,7 @@ waffle-cooked.png::CompressedTexture2D::6916869117913694854::1766518406::1766518
 waffle-finished.png::CompressedTexture2D::2273457879365438121::1766518403::1766518423::1::::<><><>0<>0<>842957105540da8b7e8dd04109e0493f<>res://.godot/imported/waffle-finished.png-b79fdcc696c921f94d4e9b29d83fd431.ctex::
 waffle-flipped.png::CompressedTexture2D::5652263751701550346::1766516675::1766516736::1::::<><><>0<>0<>fe5a265c8f5f4ffa3d0e2da8f9c14b20<>res://.godot/imported/waffle-flipped.png-8e2aa30f51b7b7d437709176f4c389af.ctex::
 waffle-open.png::CompressedTexture2D::7814593842160428513::1766516657::1766516736::1::::<><><>0<>0<>b2674669e4e266085699d167bc1ff87a<>res://.godot/imported/waffle-open.png-dfbb1b4f6a12bbd00aa62bbcd8b2c754.ctex::
-::res://Scenes/::1766519535
-CookScene.tscn::PackedScene::2828004766093567764::1766519535::0::1::::<><><>0<>0<><>::uid://c07p8drmidx1m::::res://Scenes/grill.gd<>uid://djlpho83niqgf::::res://Assets/waffle-open.png<>uid://bqdoew7s8s66q::::res://Assets/waffle-batter.png<>uid://mc6x8lyh70mv::::res://Assets/waffle-butter.png<>uid://dx7my6rdrxq80::::res://Assets/waffle-closed.png<>uid://c5st3ak3a8kvm::::res://Assets/waffle-cooked.png<>uid://cmr87twqnad2y::::res://Assets/waffle-flipped.png<>uid://7njrwdmpylw8::::res://Assets/waffle-finished.png
-grill.gd::GDScript::6594592416945069748::1766519535::0::1::::<>TextureButton<><>0<>0<><>::
+::res://Scenes/::1766520505
+CookScene.tscn::PackedScene::2828004766093567764::1766520505::0::1::::<><><>0<>0<><>::uid://c07p8drmidx1m::::res://Scenes/grill.gd<>uid://djlpho83niqgf::::res://Assets/waffle-open.png<>uid://bqdoew7s8s66q::::res://Assets/waffle-batter.png<>uid://mc6x8lyh70mv::::res://Assets/waffle-butter.png<>uid://dx7my6rdrxq80::::res://Assets/waffle-closed.png<>uid://c5st3ak3a8kvm::::res://Assets/waffle-cooked.png<>uid://cmr87twqnad2y::::res://Assets/waffle-flipped.png<>uid://7njrwdmpylw8::::res://Assets/waffle-finished.png
+grill.gd::GDScript::6594592416945069748::1766520015::0::1::::<>TextureButton<><>0<>0<><>::
 ::res://Scripts/::1766510661

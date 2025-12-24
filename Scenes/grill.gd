@@ -24,11 +24,15 @@ enum State {
 @export var butter: Button
 @export var batter: Button
 
+# timer
+@onready var timer: Timer = $Timer
+
 #manages states. OPEN cause we start in that state
 var state: State = State.OPEN
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	#timer.timeout.connect(myfunc)
 	pressed.connect(_on_pressed)
 	_apply_state()
 
@@ -70,9 +74,11 @@ func _apply_state() -> void:
 			disabled = false
 			texture_normal = img_closed
 
+		# start timer in the FLIPPED state
 		State.FLIPPED:
 			disabled = false
 			texture_normal = img_flipped
+			timer.start()
 		
 		State.COOKED:
 			disabled = false
