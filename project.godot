@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Waffle-Game"
+run/main_scene="uid://bgj53ccoa0nvo"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 

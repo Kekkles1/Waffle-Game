@@ -1,0 +1,56 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6mcerolegbau"]
+
+[ext_resource type="Script" uid="uid://3wksrptmb22j" path="res://Scenes/plate.gd" id="1_uvc5v"]
+[ext_resource type="Texture2D" uid="uid://cf6xdr8iww8ly" path="res://Assets/plate.png" id="2_fjhvx"]
+
+[node name="Plate" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_uvc5v")
+
+[node name="Base" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_fjhvx")
+stretch_mode = 5
+
+[node name="WaffleSlot" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Ghost" type="TextureRect" parent="WaffleSlot"]
+visible = false
+modulate = Color(1, 1, 1, 0.5019608)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch_mode = 5
+
+[node name="Content" type="Control" parent="WaffleSlot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Warning" type="ColorRect" parent="."]
+visible = false
+modulate = Color(1, 0, 0, 0.36078432)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
