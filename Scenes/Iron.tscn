@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://cctyd1sx1tpyv"]
+
+[ext_resource type="Script" uid="uid://dqq8gdfn2ne01" path="res://Scenes/iron.gd" id="1_iqnrt"]
+[ext_resource type="Script" uid="uid://b317fqm73rery" path="res://Scenes/0.gd" id="2_iqnrt"]
+[ext_resource type="Texture2D" uid="uid://mdm75qptjwe2" path="res://Assets/waffle-0-empty.png" id="4_nhcar"]
+[ext_resource type="Texture2D" uid="uid://cxy7jh2fyujb7" path="res://Assets/waffle-0-butter.png" id="5_j273e"]
+[ext_resource type="Texture2D" uid="uid://kdsc7cnsmhbj" path="res://Assets/waffle-0-batter.png" id="6_qf8q2"]
+
+[node name="Iron" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_iqnrt")
+
+[node name="iron0" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 121.0
+offset_right = 173.0
+offset_bottom = 161.0
+texture_normal = ExtResource("4_nhcar")
+script = ExtResource("2_iqnrt")
+img_0_empty = ExtResource("4_nhcar")
+img_0_butter = ExtResource("5_j273e")
+img_0_batter = ExtResource("6_qf8q2")

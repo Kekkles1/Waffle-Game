@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7njrwdmpylw8"
-path="res://.godot/imported/waffle-finished.png-b79fdcc696c921f94d4e9b29d83fd431.ctex"
+uid="uid://kdsc7cnsmhbj"
+path="res://.godot/imported/waffle-0-batter.png-454dbe26eb7ef14d43ae10a375061cfc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/waffle-finished.png"
-dest_files=["res://.godot/imported/waffle-finished.png-b79fdcc696c921f94d4e9b29d83fd431.ctex"]
+source_file="res://Assets/waffle-0-batter.png"
+dest_files=["res://.godot/imported/waffle-0-batter.png-454dbe26eb7ef14d43ae10a375061cfc.ctex"]
 
 [params]
 

@@ -1,8 +1,8 @@
+Button
+TextureRect
+TextureButton
 ColorRect
 Control
-TextureRect
 Timer
 TextureProgressBar
-TextureButton
-Button
 CanvasLayer

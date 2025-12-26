@@ -1,66 +1,36 @@
-[gd_scene load_steps=9 format=3 uid="uid://bgj53ccoa0nvo"]
+[gd_scene load_steps=3 format=3 uid="uid://bgj53ccoa0nvo"]
 
-[ext_resource type="Script" uid="uid://c07p8drmidx1m" path="res://Scenes/grill.gd" id="3_il61f"]
-[ext_resource type="Texture2D" uid="uid://djlpho83niqgf" path="res://Assets/waffle-open.png" id="4_frl58"]
-[ext_resource type="Texture2D" uid="uid://bqdoew7s8s66q" path="res://Assets/waffle-batter.png" id="4_nn2mh"]
-[ext_resource type="Texture2D" uid="uid://mc6x8lyh70mv" path="res://Assets/waffle-butter.png" id="5_b5wxm"]
-[ext_resource type="Texture2D" uid="uid://dx7my6rdrxq80" path="res://Assets/waffle-closed.png" id="6_biumy"]
-[ext_resource type="Texture2D" uid="uid://c5st3ak3a8kvm" path="res://Assets/waffle-cooked.png" id="7_nn2mh"]
-[ext_resource type="Texture2D" uid="uid://cmr87twqnad2y" path="res://Assets/waffle-flipped.png" id="7_y8iiw"]
-[ext_resource type="Texture2D" uid="uid://7njrwdmpylw8" path="res://Assets/waffle-finished.png" id="8_i5npo"]
+[ext_resource type="Script" uid="uid://7xbrkx7t0xyy" path="res://Scenes/cook_scene.gd" id="1_7s3df"]
+[ext_resource type="PackedScene" uid="uid://cctyd1sx1tpyv" path="res://Scenes/Iron.tscn" id="2_il61f"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 1152.0
 offset_bottom = 649.0
+script = ExtResource("1_7s3df")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="Batter" type="Button" parent="."]
-layout_mode = 0
-offset_left = 12.0
-offset_top = 12.0
-offset_right = 102.0
-offset_bottom = 45.0
-toggle_mode = true
-text = "BATTER"
+[node name="Iron" parent="." instance=ExtResource("2_il61f")]
+layout_mode = 1
+offset_left = 127.0
+offset_top = 94.0
+offset_right = 127.0
+offset_bottom = 94.0
 
 [node name="Butter" type="Button" parent="."]
 layout_mode = 0
-offset_left = 115.0
-offset_top = 11.0
-offset_right = 183.0
-offset_bottom = 45.0
+offset_left = 132.0
+offset_top = 16.0
+offset_right = 214.0
+offset_bottom = 49.0
 toggle_mode = true
 text = "BUTTER"
 
-[node name="Grill" type="TextureButton" parent="." node_paths=PackedStringArray("butter", "batter")]
+[node name="Batter" type="Button" parent="."]
 layout_mode = 0
-offset_left = 42.0
-offset_top = 98.0
-offset_right = 82.0
-offset_bottom = 138.0
-toggle_mode = true
-texture_normal = ExtResource("4_frl58")
-script = ExtResource("3_il61f")
-img_open = ExtResource("4_frl58")
-img_butter = ExtResource("5_b5wxm")
-img_batter = ExtResource("4_nn2mh")
-img_closed = ExtResource("6_biumy")
-img_flipped = ExtResource("7_y8iiw")
-img_cooked = ExtResource("7_nn2mh")
-img_finished = ExtResource("8_i5npo")
-butter = NodePath("../Butter")
-batter = NodePath("../Batter")
-
-[node name="Timer" type="Timer" parent="Grill"]
-wait_time = 3.0
-one_shot = true
-
-[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
-layout_mode = 0
-offset_left = 339.0
-offset_top = 66.0
-offset_right = 379.0
-offset_bottom = 106.0
+offset_left = 17.0
+offset_top = 21.0
+offset_right = 112.0
+offset_bottom = 49.0
